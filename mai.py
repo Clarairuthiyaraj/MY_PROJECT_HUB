@@ -2,18 +2,10 @@ from ultralytics import YOLO
 import cv2
 import math
 
-# Start webcam
+
 cap = cv2.VideoCapture(0)
 cap.set(3, 640)
 cap.set(4, 480)
-"""
-# Load YOLO model
-model = YOLO("D:\\UVD MAJOR PROJECT\\UVD MAJOR PROJECT (1)\\runs\\detect\\train29\\weights\\best.pt")
-classNames= ['With Helmet', 'Without Helmet']
-"""
-
-
-
 model = YOLO("yolov8n.pt")
 classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
               "traffic light", "fire hydrant", "stop sign", "parking meter", "bench", "bird", "cat",
