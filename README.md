@@ -1,4 +1,4 @@
-# Solar simulation
+# Solar simulation Using Java 
 # Object detection using pretrained model 
-# machine learning 
+# Training model 
 
